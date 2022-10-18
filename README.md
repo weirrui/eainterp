@@ -9,10 +9,10 @@ In order to reduce the deviation introduced by interpolation, the new mesh is se
 
 • Rossow, W.B.; Schiffer, R.A. ISCCP cloud data products. Bulletin of the American Meteorological Society 1991, 72, 2–20.
 
-# Installation
+## Installation
 To install any release version of MATLAB
 
-# Instructions
+## Instructions
 1.Add to your path
 
 2.Read in the data you need to process
