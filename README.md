@@ -5,11 +5,11 @@ This code is the method of interpolation of equal-area grids.
 In order to reduce the deviation introduced by interpolation, the new mesh is set close to the original mesh reasonably. The method adopted is to keep the meridional component, but change the zonal interval, so that it has equal-area grid, which is called equal-area isolatitudinal grid.For global study, the central of the domain is equator, so the number of the new grid in each latitude interval is equal to the grid number in each interval of latitude of the old grid times the cosine of the total area in the corresponding latitude times.
 
 ## Data Import and Analysis
-The function of matlab function is function [output variable] = function name （input variable）
+The function of matlab function is function [output variable] = function name （input variable).
 
 In this case, function [lati,loni] = f_eainterp(latx,lonx). The input variable is latx and lonx; the output variable is lati and loni.
 
-Converting the original equirectangular grids with latitude (latx) and longitude (lonx) to the equal-area grids with new latitude (lati) and longitude (loni) 
+Converting the original equirectangular grids with latitude (latx) and longitude (lonx) to the equal-area grids with new latitude (lati) and longitude (loni).
 
 
 ## Citations
